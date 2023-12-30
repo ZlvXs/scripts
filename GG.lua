@@ -113,7 +113,8 @@ local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Txckz/Cha
 local Table = {}
 
 local window = Lib:CreateWindow("CHAOS T1gger")
-windows:section("Ez")
+
+window:Section("Ez")
 
 window:Button("Infinite Yield v5",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
